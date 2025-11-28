@@ -1,0 +1,25 @@
+[EXPLORARCOMPRAD.FRM/Forma]
+PosicionInicialIzquierda=443
+PosicionInicialArriba=258
+EsMovimiento=S
+TituloAuto=S
+MovEspecificos=Todos
+MovModulo=COMS
+
+[EXPLORARCOMPRAD.FRM/Lista]
+FiltroFechasDefault=Hoy
+FiltroMovDefault=(Todos)
+FiltroGeneral=Compra.Empresa=<T>{Empresa}<T> AND<BR>Compra.Estatus=<T>CONCLUIDO<T> AND<BR>Compra.Mov IN ({MovListaSQL(<T>COMS<T>, COMS.F, COMS.FL, COMS.EG, COMS.EI, COMS.D, COMS.B,COMS.O,COMS.OI)})
+FiltroMovs=S
+FuenteBusqueda={MS Sans Serif, 8, Negro, []}
+
+[EXPLORARCOMPRAD.FRM/Lista.Columnas]
+2=67
+3=74
+4=131
+5=92
+6=80
+7=171
+8=132
+9=120
+
