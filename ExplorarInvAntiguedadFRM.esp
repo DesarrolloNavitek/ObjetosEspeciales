@@ -1,0 +1,33 @@
+[EXPLORARINVANTIGUEDAD.FRM/Forma]
+PosicionInicialIzquierda=460
+PosicionInicialArriba=260
+PosicionInicialAncho=999
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista]
+NavAlineacion=Izquierda
+NavPosicion=Arriba
+NavNumeracionFuente={MS Sans Serif, 8, Negro, []}
+NavColorBoton=Plata
+NavColorFondo=Plata
+FiltroGrupo6=(Validaciones Memoria)
+FiltroValida6=ArtLinea
+FiltroAplicaEn6=Art.Linea
+FuenteBusqueda={MS Sans Serif, 8, Negro, []}
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista.Art.Descripcion1]
+ColorFuente=
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista.Columnas]
+2=49
+3=52
+4=62
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista.SerieLoteDias.Almacen]
+ColorFuente=
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista.SerieLoteDias.Dias]
+ColorFuente=
+
+[EXPLORARINVANTIGUEDAD.FRM/Lista.SerieLoteDias.SerieLote]
+ColorFuente=
+
