@@ -1,0 +1,10 @@
+[InvT.vis/SELECT]
+InvDInmCostoNVK.CostoMO,
+InvDInmCostoNVK.CostoMP,
+InvDInmCostoNVK.Gastodirecto,
+InvDInmCostoNVK.PorcGD,
+InvDInmCostoNVK.PorcMO
+
+[InvT.vis/FROM]
+LEFT JOIN InvDInmCostoNVK ON InvD.ID=InvDInmCostoNVK.ID AND InvD.Articulo=InvDInmCostoNVK.Articulo AND InvD.Renglon=InvDInmCostoNVK.Renglon AND InvD.RenglonSub=InvDInmCostoNVK.RenglonSub
+
